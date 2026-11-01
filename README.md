@@ -1,2 +1,45 @@
-# IPL_Dashboard
-IPL 2008–2024 raw match data cleaned with Python (pandas, regex) into a 12-table star schema, then visualised in a 2-page Power BI dashboard with DAX.
+# 🏏 Indian Premier League (IPL) Comprehensive Analytics Dashboard
+
+An end-to-end business intelligence solution that aggregates, cleans, and models multidimensional IPL cricket data. This project delivers actionable performance analytics and historical insights using a custom-themed, interactive Power BI architecture.
+
+> 💡 **Deployment Note:** This repository hosts the full local development environment including data pipelines, data models, and the core analytics workbook. Visual mockups of the final layout are provided below.
+
+---
+
+## 📸 Executive Visual Walkthrough
+
+### View 1: Core Tournament & Performance Overview
+![IPL Overview Layout](https://githubusercontent.com)
+* **Objective:** Synthesizes global seasonal trends, point table configurations, and stadium performance statistics.
+* **Key Visuals:** Dynamic tournament grids, venue-based margin analyses, and top-tier statistical KPIs.
+
+### View 2: Granular Team & Player Profile Matrix
+![Team Profile Matrix Layout](https://githubusercontent.com)
+* **Objective:** Deep-dive analysis isolating franchise metrics, individual player trajectories, batting/bowling efficiencies, and historical milestones.
+* **Key Visuals:** Split radar matrices, historical strike-rate trackers, and conditional breakdown tables.
+
+---
+
+## 🛠️ Data Architecture & Engineering
+The dataset is structured using a optimized **Star Schema** architecture to ensure optimized query execution times across millions of combined data points:
+
+* **Fact Tables:** Ingestion pipelines for explicit granular events: `fact_deliveries`, `fact_batting`, `fact_bowling`, and match-level conditions (`fact_innings`, `fact_matches`).
+* **Dimension Tables:** Contextual relational mapping filters: `dim_player`, `dim_team`, `dim_season`, and `dim_venue`.
+* **Data Integrity Checks:** Includes custom extraction delta validation logs (`_cleaning_log.txt`) and anomaly checks ensuring baseline aggregate reconciliation across innings and point boundaries.
+
+---
+
+## 🚀 Advanced Analytical Features & DAX Implementations
+* **Custom UI Optimization:** Seamless configuration via a specialized `IPL_Navy_Theme.json` blueprint layout, ensuring uniform visual hierarchy, contrast ratios, and streamlined navigation footprints.
+* **Dynamic Time Intelligence & Metrics:** Complex DAX measures engineered to calculate running strike rates, moving averages, weighted bowling metrics, and situation-specific cluster indicators.
+* **Granular Drill-Through Actions:** Advanced context filtering enabling users to right-click macro indicators and instantly navigate to isolated match-by-match player profiles.
+
+---
+
+## 📁 Repository Map
+* `/data`: Source relational dimensions and transaction-level event CSV logs.
+* `/assets`: UI themes, design components, and visual breakdown assets.
+* `/documentation`: Holistic data dictionaries, operational walkthroughs, and sanitization verification outputs.
+* `IPL Reports Assignment.pbix`: The compiled master Power BI workbook file.
+<img width="679" height="704" alt="Team Profile" src="https://github.com/user-attachments/assets/a793e347-f928-47a6-bffb-8eafc76fdb94" />
+<img width="1292" height="718" alt="IPL Overview" src="https://github.com/user-attachments/assets/1191a32c-6680-495a-9d1f-a08ceb49ba10" />
