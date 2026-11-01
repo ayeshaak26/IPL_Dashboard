@@ -41,5 +41,3 @@ The dataset is structured using a optimized **Star Schema** architecture to ensu
 * `/assets`: UI themes, design components, and visual breakdown assets.
 * `/documentation`: Holistic data dictionaries, operational walkthroughs, and sanitization verification outputs.
 * `IPL Reports Assignment.pbix`: The compiled master Power BI workbook file.
-<img width="1292" height="718" alt="IPL Overview" src="https://github.com/user-attachments/assets/1191a32c-6680-495a-9d1f-a08ceb49ba10" />
-<img width="679" height="704" alt="Team Profile" src="https://github.com/user-attachments/assets/a793e347-f928-47a6-bffb-8eafc76fdb94" />
