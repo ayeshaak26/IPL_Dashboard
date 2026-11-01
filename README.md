@@ -9,12 +9,12 @@ An end-to-end business intelligence solution that aggregates, cleans, and models
 ## 📸 Executive Visual Walkthrough
 
 ### View 1: Core Tournament & Performance Overview
-![IPL Overview Layout](https://githubusercontent.com)
+![IPL Overview Layout](https://github.com/user-attachments/assets/1191a32c-6680-495a-9d1f-a08ceb49ba10)
 * **Objective:** Synthesizes global seasonal trends, point table configurations, and stadium performance statistics.
 * **Key Visuals:** Dynamic tournament grids, venue-based margin analyses, and top-tier statistical KPIs.
 
 ### View 2: Granular Team & Player Profile Matrix
-![Team Profile Matrix Layout](https://githubusercontent.com)
+![Team Profile Matrix Layout](https://github.com/user-attachments/assets/a793e347-f928-47a6-bffb-8eafc76fdb94)
 * **Objective:** Deep-dive analysis isolating franchise metrics, individual player trajectories, batting/bowling efficiencies, and historical milestones.
 * **Key Visuals:** Split radar matrices, historical strike-rate trackers, and conditional breakdown tables.
 
@@ -41,5 +41,5 @@ The dataset is structured using a optimized **Star Schema** architecture to ensu
 * `/assets`: UI themes, design components, and visual breakdown assets.
 * `/documentation`: Holistic data dictionaries, operational walkthroughs, and sanitization verification outputs.
 * `IPL Reports Assignment.pbix`: The compiled master Power BI workbook file.
-<img width="679" height="704" alt="Team Profile" src="https://github.com/user-attachments/assets/a793e347-f928-47a6-bffb-8eafc76fdb94" />
 <img width="1292" height="718" alt="IPL Overview" src="https://github.com/user-attachments/assets/1191a32c-6680-495a-9d1f-a08ceb49ba10" />
+<img width="679" height="704" alt="Team Profile" src="https://github.com/user-attachments/assets/a793e347-f928-47a6-bffb-8eafc76fdb94" />
